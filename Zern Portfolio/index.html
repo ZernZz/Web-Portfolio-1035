@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zern's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body class="dark-mode">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Zern</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#assignments" class="nav-link">Assignments</a></li>
+                <li><a href="#contact" class="nav-link">Contacts</a></li>
+                <li><a href="#reference" class="nav-link">References</a></li>
+            </ul>
+            <div class="theme-switch">
+                <button id="theme-toggle"><i class="fas fa-sun"></i></button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="overlay"></div>
+        <div class="home-content">
+            <h1><span class="name">Warit Leangruttananon</span></h1>
+            <h2>Game Developer & Animator</h2>
+            <p>Welcome to my personal portfolio!</p>
+            <button class="btn" onclick="document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });">More About Me</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h1>About Me</h1>
+            <div class="about-content">
+                <img src="images/profile.jpg" alt="Warit Leangruttananon" class="about-image">
+                <div class="about-card">
+                    <div class="personal-info">
+                        <p><strong>Name :</strong> Warit Leangruttananon</p>
+                        <p><strong>Nickname :</strong> Zern</p>
+                        <p><strong>Birthday :</strong> November 13, 2003</p>
+                        <p><strong>Hobbies :</strong> Game Development, Animation, Motion Graphics, Video Editing, Theater</p>
+                        <p><strong>Interest :</strong> Human Anatomy for Animators</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h1>Skills</h1>
+            <div class="skills-list">
+                <div class="skill-card">
+                    <img src="images/unity.png" alt="Unity">
+                    <h3>Unity</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/maya.png" alt="Maya">
+                    <h3>Maya</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/blender.png" alt="Blender">
+                    <h3>Blender</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/ae.png" alt="After Effects">
+                    <h3>Adobe After Effects</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/an.png" alt="Adobe Animate">
+                    <h3>Adobe Animate</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/ai.png" alt="Adobe Illustrator">
+                    <h3>Adobe Illustrator</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/ps.png" alt="Adobe Photoshop">
+                    <h3>Adobe Photoshop</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/csharp.png" alt="C#">
+                    <h3>C#</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/html5.png" alt="HTML5">
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/css3.png" alt="CSS3">
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/js.png" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/nodejs.png" alt="Node.js">
+                    <h3>Node.js</h3>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h1>Portfolio</h1>
+            <div class="portfolio-button">
+                <button class="btn" onclick="window.location.href='projects.html'">More about projects</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Assignments Section -->
+    <section id="assignments" class="assignments-section">
+        <div class="container">
+            <h1>Assignments</h1>
+            <div class="assignment-list">
+                <button class="btn" onclick="window.location.href='assignments/assignment3/recipe.html'">Assignment 3</button>
+                <button class="btn" onclick="window.location.href='assignments/assignment4/recipe.html'">Assignment 4</button>
+                <button class="btn" onclick="window.location.href='assignments/assignment5/index.html'">Assignment 5</button>
+                <button class="btn" onclick="window.location.href='assignments/assignment6/register.html'">Assignment 6</button>
+                <button class="btn" onclick="window.location.href='assignments/assignment7/index.html'">Assignment 7</button>
+            </div>
+        </div>
+    </section>
+
+     <!-- Contact Section -->
+     <section id="contact" class="contact-section">
+        <div class="container">
+            <h1>Contacts</h1>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p><strong>Phone :</strong> 095-778-0672</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p><strong>Email :</strong> <a href="mailto:zernmcpe@gmail.com">zernmcpe@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-instagram"></i>
+                    <p><strong>Instagram :</strong> <a href="https://www.instagram.com/zx.zrn/" target="_blank">zx.zrn</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-facebook"></i>
+                    <p><strong>Facebook :</strong> <a href="https://www.facebook.com/itszerngamez" target="_blank">Zern Warit</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- References Section -->
+    <section id="reference" class="reference-section">
+        <div class="container">
+            <h1>References</h1>
+            <div class="references-content">
+                <ul>
+                    <li><a href="https://www.apple.com/" target="_blank">Apple</a></li>
+                    <li><a href="https://favicon.io/" target="_blank">Favicon</a></li>
+                    <li><a href="https://www.udemy.com/course/javascript-30-workshop/?couponCode=ST15MT100124A#instructor-1" target="_blank">Udemy Kong Ruksiam</a></li>
+                    <li><a href="https://youtu.be/F2_6rFk-UC8" target="_blank">Bedimcode</a></li>
+                    <li><a href="https://medium.com/womenintechnology/build-a-responsive-portfolio-website-as-a-beginner-over-a-week-1fbca6d15a7c" target="_blank">Article on Medium</a></li>
+                    <li><a href="https://www.freepik.com/" target="_blank">Freepik</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zern's Portfolio. Warit Leangruttananon 65120501035.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn"><i class="fas fa-chevron-up"></i></button>
+
+</body>
+</html>
